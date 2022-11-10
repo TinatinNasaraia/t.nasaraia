@@ -1,0 +1,23 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.text-center{
+  background-color: aliceblue;
+}
+.card-header{
+  font-size: 24px;
+  background-color: rgb(206, 231, 223);
+}
+
+button{
+  width: 250px;
+  background-color: rgb(122, 233, 122);
+  border-radius: 10px;
+  font-size: large;
+  border: 1px green;
+}
+.btn{
+  width: 250px;
+  background-color: red;
+  border-radius: 10px;
+  font-size: large;
+}

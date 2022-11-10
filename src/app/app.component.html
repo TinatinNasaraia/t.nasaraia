@@ -1,0 +1,18 @@
+
+<div class="card text-center">
+<div class="card-header">
+ Registration Form
+</div>
+<div class="card-body">
+  <h5 class="card-title">Person main details:</h5>
+  <p> Name: {{personData.name}}</p>
+  <p> Email: {{personData.email}}</p>
+  <p #StatusElem> student status: {{personData.isStudent ? "student" : "Not student"}}</p>
+  <button type="button"  (click)=" statusUpdate()" >Activate Student status</button> <br>
+ <br>
+  <button type="button"  (click)=" statusDeactive()"  class=btn>inactivate Student status</button>
+</div>
+<div class="card-footer text-muted">
+<app-child [mainAddress]="personData.address"></app-child> 
+</div>
+</div>
